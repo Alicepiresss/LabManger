@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="agendamentos.css">
 
     <title>LabManager - Agendamento do laboraório de química</title>
 </head>
@@ -23,14 +24,26 @@
             <div class="menu-container">
                 <button id="menu-button">☰</button>
 
-                <div id="menu" class="menu">
+                 <div id="menu" class="menu">
+                    <a href="index.html">Início</a>
+                    <a href="pag-agendamentos.html">Agendamento</a>
+                    <a href="pag-vidrarias.html">Vidrarias</a>
+                    <a href="pag-reagentes.html">Reagentes</a>
+                    <a href="pag-equipamentos.html">Equipamentos</a>
                 </div>
             </div>
         </aside>
 
         <main class="main-content">
-    
-            
+            <h1 class="titulo-agendamento">Agendamento do laboratório de química - IFRS </h1>
+            <div class="area-agendamento">
+                  <label for="horario">Professor(a):</label>
+                <input type="text" id="professor" placeholder="Professor, digite seu nome">
+
+                <label for="horario">Horário e turno:</label>
+                <input type="text" id="horario" placeholder="Ex: 14h - Tarde">
+            </div>
+      
        </main>
 
     </div>
@@ -43,3 +56,4 @@
 
 </body>
 </html>
+
