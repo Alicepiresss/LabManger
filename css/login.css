@@ -1,0 +1,39 @@
+body {
+    margin: 70px;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #76b5ed, #e245ab);
+}
+
+.login-container {
+    background-color: white;
+    padding: 250px;
+    border-radius: 50px;
+    width: 200px;
+}
+.login-container h1 {
+    margin-bottom: 40px;
+}
+
+.login-container h2 {
+    margin-bottom: 40px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-container input {
+    display: block;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.login-container button {
+    margin-top: 20px;
+    padding: 12px 30px;
+}
