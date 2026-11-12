@@ -48,12 +48,26 @@ body {
     position: absolute;
     left: 20px;
     top: 0;
-    margin-top: 90px;
-    padding: 60px;
-    width: 130px;
-    height: 180px;
+    margin-top: 60px;
+    padding: 10px;
+    width: 180px;
     background-color: white;
+    border-radius: 12px;
     box-shadow: 0 2px 9px #3d7da5;
+}
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #2864a5;
+    background-color: #e8edf2;
+    padding: 8px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu a:hover {
+    background-color: #cbdff3;
 }
 
 .main-content {
@@ -63,12 +77,12 @@ body {
     display: flex;
 }
 
-.card-agendamento {
+.card-agendamentos {
     margin-top: 90px;
     margin-left: 90px;
 }
 
-.card-agendamento img {
+.card-agendamentos img {
     width: 350px;
     cursor: pointer;
 }
